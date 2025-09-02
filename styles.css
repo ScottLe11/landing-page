@@ -44,6 +44,7 @@ body{
 .info h1{
     padding:0px;
     margin:0px;
+    
 }
 
 .info button{
@@ -83,3 +84,29 @@ ul{
 }
 
 
+/*Cards section*/
+.card-title{
+    text-align:center;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+
+.cards{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    
+}
+
+.card{
+    border: 3px solid blue;
+    max-width:150px;
+    border-radius: 8px;
+}
+
+.set p{
+    max-width:150px;
+    color:black;
+    text-align:center;
+}
