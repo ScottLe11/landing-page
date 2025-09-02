@@ -20,16 +20,14 @@ body{
     margin:0px;
     gap:8px;
     font-size: 18px;
-    color:#E5E7EB
-    /*  */
+    color:#E5E7EB;
+    
 }
 
 /* header title*/
 .header .big{
     font-size: 24px;
     color: #F9FAF8;
-    
-
     margin:8px;
 }
 
@@ -52,7 +50,7 @@ body{
     color:#E5E7EB;
     border-radius:10px;
     padding:5px 25px;
-    border-color:#3882F6
+    border-color:#3882F6;
 }
 
 /* title */
@@ -109,4 +107,49 @@ ul{
     max-width:150px;
     color:black;
     text-align:center;
+}
+
+/* Quote section*/
+
+
+.quote{
+     background-color: #E5E7EB;
+    /* Add padding for spacing */
+    padding: 100px;
+    
+    /* Use Flexbox to center the content */
+    display: flex;
+    flex-direction: column; /* Stack the quote and author vertically */
+
+    
+
+}
+
+.quotes{
+    max-width: 800px; /* Limit the width for readability */
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 2px; /* Space between the quote and author */
+    padding-bottom:9px;
+    text-align: start;
+    align-self: center;
+}
+
+.quoted{
+    max-width: 600px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%; /* Important: This makes the element take full width, so text-align: right works */
+    
+    /* Add this property to override the parent's alignment and move the element to the right */
+    align-self: flex-end;
+    margin-right:150px;
+    
+    
+
 }
