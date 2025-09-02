@@ -186,3 +186,11 @@ ul{
     border-style: solid;
     color:#F9FAF8;
 }
+
+/*footer*/
+
+.footer{
+    padding:50px;
+    text-align: center;
+    color:#F9FAF8
+}
